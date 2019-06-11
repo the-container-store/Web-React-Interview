@@ -1,0 +1,740 @@
+/**
+ * Margins
+ *
+ * m{side?}-{size}
+ * -m{side?}-{size}
+ *
+ * side (optional) - the side that will have the property applied
+ *   - [blank]: All
+ *   - t: Top
+ *   - r: Right
+ *   - b: Bottom
+ *   - l: Left
+ *   - x: Horizontal (x-axis)
+ *   - y: Vertical (y-axis)
+ *
+ * size - the multiplier of the base size (10px)
+ *   - 0:  0px
+ *   - 1: 10px
+ *   - 2: 20px
+ *   - 3: 30px
+ *   - 4: 40px
+ *   - 5: 50px
+ *   - 6: 60px
+ *   - auto: auto
+ *   - half: 5px
+ *
+ * Examples:
+ *   @mixin mx-2 {...} // double horizontal margin
+ *   @mixin -mb-1 {...} // negative single space bottom margin
+ */
+@mixin m-0 {
+  margin: 0;
+}
+%m-0 {
+  margin: 0;
+}
+@mixin m-1 {
+  margin: space();
+}
+%m-1 {
+  @include m-1;
+}
+@mixin m-2 {
+  margin: space(2);
+}
+%m-2 {
+  @include m-2;
+}
+@mixin m-3 {
+  margin: space(3);
+}
+%m-3 {
+  @include m-3;
+}
+@mixin m-4 {
+  margin: space(4);
+}
+%m-4 {
+  @include m-4;
+}
+@mixin m-5 {
+  margin: space(5);
+}
+%m-5 {
+  @include m-5;
+}
+@mixin m-6 {
+  margin: space(6);
+}
+%m-6 {
+  @include m-6;
+}
+@mixin m-auto {
+  margin: auto;
+}
+%m-auto {
+  @include m-auto;
+}
+@mixin m-half {
+  margin: space(0.5);
+}
+%m-half {
+  @include m-half;
+}
+@mixin -m-1 {
+  margin: space(-1);
+}
+%-m-1 {
+  @include -m-1;
+}
+@mixin -m-2 {
+  margin: space(-2);
+}
+%-m-2 {
+  @include -m-2;
+}
+@mixin -m-3 {
+  margin: space(-3);
+}
+%-m-3 {
+  @include -m-3;
+}
+@mixin -m-4 {
+  margin: space(-4);
+}
+%-m-4 {
+  @include -m-4;
+}
+@mixin -m-5 {
+  margin: space(-5);
+}
+%-m-5 {
+  @include -m-5;
+}
+@mixin -m-6 {
+  margin: space(-6);
+}
+%-m-6 {
+  @include -m-6;
+}
+@mixin -m-half {
+  margin: space(-0.5);
+}
+%-m-half {
+  @include -m-half;
+}
+
+@mixin mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+%mx-0 {
+  @include mx-0;
+}
+@mixin mx-1 {
+  margin-left: space();
+  margin-right: space();
+}
+%mx-1 {
+  @include mx-1;
+}
+@mixin mx-2 {
+  margin-left: space(2);
+  margin-right: space(2);
+}
+%mx-2 {
+  @include mx-2;
+}
+@mixin mx-3 {
+  margin-left: space(3);
+  margin-right: space(3);
+}
+%mx-3 {
+  @include mx-3;
+}
+@mixin mx-4 {
+  margin-left: space(4);
+  margin-right: space(4);
+}
+%mx-4 {
+  @include mx-4;
+}
+@mixin mx-5 {
+  margin-left: space(5);
+  margin-right: space(5);
+}
+%mx-5 {
+  @include mx-5;
+}
+@mixin mx-6 {
+  margin-left: space(6);
+  margin-right: space(6);
+}
+%mx-6 {
+  @include mx-6;
+}
+@mixin mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+%mx-auto {
+  @include mx-auto;
+}
+@mixin mx-half {
+  margin-left: space(0.5);
+  margin-right: space(0.5);
+}
+%mx-half {
+  @include mx-half;
+}
+@mixin -mx-1 {
+  margin-left: space(-1);
+  margin-right: space(-1);
+}
+%-mx-1 {
+  @include -mx-1;
+}
+@mixin -mx-2 {
+  margin-left: space(-2);
+  margin-right: space(-2);
+}
+%-mx-2 {
+  @include -mx-2;
+}
+@mixin -mx-3 {
+  margin-left: space(-3);
+  margin-right: space(-3);
+}
+%-mx-3 {
+  @include -mx-3;
+}
+@mixin -mx-4 {
+  margin-left: space(-4);
+  margin-right: space(-4);
+}
+%-mx-4 {
+  @include -mx-4;
+}
+@mixin -mx-5 {
+  margin-left: space(-5);
+  margin-right: space(-5);
+}
+%-mx-5 {
+  @include -mx-5;
+}
+@mixin -mx-6 {
+  margin-left: space(-6);
+  margin-right: space(-6);
+}
+%-mx-6 {
+  @include -mx-6;
+}
+@mixin -mx-half {
+  margin-left: space(-0.5);
+  margin-right: space(-0.5);
+}
+%-mx-half {
+  @include -mx-half;
+}
+
+@mixin my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+%my-0 {
+  @include my-0;
+}
+@mixin my-1 {
+  margin-top: space();
+  margin-bottom: space();
+}
+%my-1 {
+  @include my-1;
+}
+@mixin my-2 {
+  margin-top: space(2);
+  margin-bottom: space(2);
+}
+%my-2 {
+  @include my-2;
+}
+@mixin my-3 {
+  margin-top: space(3);
+  margin-bottom: space(3);
+}
+%my-3 {
+  @include my-3;
+}
+@mixin my-4 {
+  margin-top: space(4);
+  margin-bottom: space(4);
+}
+%my-4 {
+  @include my-4;
+}
+@mixin my-5 {
+  margin-top: space(5);
+  margin-bottom: space(5);
+}
+%my-5 {
+  @include my-5;
+}
+@mixin my-6 {
+  margin-top: space(6);
+  margin-bottom: space(6);
+}
+%my-6 {
+  @include my-6;
+}
+@mixin my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+%my-auto {
+  @include my-auto;
+}
+@mixin my-half {
+  margin-top: space(0.5);
+  margin-bottom: space(0.5);
+}
+%my-half {
+  @include my-half;
+}
+@mixin -my-1 {
+  margin-top: space(-1);
+  margin-bottom: space(-1);
+}
+%-my-1 {
+  @include -my-1;
+}
+@mixin -my-2 {
+  margin-top: space(-2);
+  margin-bottom: space(-2);
+}
+%-my-2 {
+  @include -my-2;
+}
+@mixin -my-3 {
+  margin-top: space(-3);
+  margin-bottom: space(-3);
+}
+%-my-3 {
+  @include -my-3;
+}
+@mixin -my-4 {
+  margin-top: space(-4);
+  margin-bottom: space(-4);
+}
+%-my-4 {
+  @include -my-4;
+}
+@mixin -my-5 {
+  margin-top: space(-5);
+  margin-bottom: space(-5);
+}
+%-my-5 {
+  @include -my-5;
+}
+@mixin -my-6 {
+  margin-top: space(-6);
+  margin-bottom: space(-6);
+}
+%-my-6 {
+  @include -my-6;
+}
+@mixin -my-half {
+  margin-top: space(-0.5);
+  margin-bottom: space(-0.5);
+}
+%-my-half {
+  @include -my-half;
+}
+
+@mixin mt-0 {
+  margin-top: 0;
+}
+%mt-0 {
+  @include mt-0;
+}
+@mixin mt-1 {
+  margin-top: space();
+}
+%mt-1 {
+  @include mt-1;
+}
+@mixin mt-2 {
+  margin-top: space(2);
+}
+%mt-2 {
+  @include mt-2;
+}
+@mixin mt-3 {
+  margin-top: space(3);
+}
+%mt-3 {
+  @include mt-3;
+}
+@mixin mt-4 {
+  margin-top: space(4);
+}
+%mt-4 {
+  @include mt-4;
+}
+@mixin mt-5 {
+  margin-top: space(5);
+}
+%mt-5 {
+  @include mt-5;
+}
+@mixin mt-6 {
+  margin-top: space(6);
+}
+%mt-6 {
+  @include mt-6;
+}
+@mixin mt-auto {
+  margin-top: auto;
+}
+%mt-auto {
+  @include mt-auto;
+}
+@mixin mt-half {
+  margin-top: space(0.5);
+}
+%mt-half {
+  @include mt-half;
+}
+@mixin -mt-1 {
+  margin-top: space(-1);
+}
+%-mt-1 {
+  @include -mt-1;
+}
+@mixin -mt-2 {
+  margin-top: space(-2);
+}
+%-mt-2 {
+  @include -mt-2;
+}
+@mixin -mt-3 {
+  margin-top: space(-3);
+}
+%-mt-3 {
+  @include -mt-3;
+}
+@mixin -mt-4 {
+  margin-top: space(-4);
+}
+%-mt-4 {
+  @include -mt-4;
+}
+@mixin -mt-5 {
+  margin-top: space(-5);
+}
+%-mt-5 {
+  @include -mt-5;
+}
+@mixin -mt-6 {
+  margin-top: space(-6);
+}
+%-mt-6 {
+  @include -mt-6;
+}
+@mixin -mt-half {
+  margin-top: space(-0.5);
+}
+%-mt-half {
+  @include -mt-half;
+}
+
+@mixin mr-0 {
+  margin-right: 0;
+}
+%mr-0 {
+  @include mr-0;
+}
+@mixin mr-1 {
+  margin-right: space();
+}
+%mr-1 {
+  @include mr-1;
+}
+@mixin mr-2 {
+  margin-right: space(2);
+}
+%mr-2 {
+  @include mr-2;
+}
+@mixin mr-3 {
+  margin-right: space(3);
+}
+%mr-3 {
+  @include mr-3;
+}
+@mixin mr-4 {
+  margin-right: space(4);
+}
+%mr-4 {
+  @include mr-4;
+}
+@mixin mr-5 {
+  margin-right: space(5);
+}
+%mr-5 {
+  @include mr-5;
+}
+@mixin mr-6 {
+  margin-right: space(6);
+}
+%mr-6 {
+  @include mr-6;
+}
+@mixin mr-auto {
+  margin-right: auto;
+}
+%mr-auto {
+  @include mr-auto;
+}
+@mixin mr-half {
+  margin-right: space(0.5);
+}
+%mr-half {
+  @include mr-half;
+}
+@mixin -mr-1 {
+  margin-right: space(-1);
+}
+%-mr-1 {
+  @include -mr-1;
+}
+@mixin -mr-2 {
+  margin-right: space(-2);
+}
+%-mr-2 {
+  @include -mr-2;
+}
+@mixin -mr-3 {
+  margin-right: space(-3);
+}
+%-mr-3 {
+  @include -mr-3;
+}
+@mixin -mr-4 {
+  margin-right: space(-4);
+}
+%-mr-4 {
+  @include -mr-4;
+}
+@mixin -mr-5 {
+  margin-right: space(-5);
+}
+%-mr-5 {
+  @include -mr-5;
+}
+@mixin -mr-6 {
+  margin-right: space(-6);
+}
+%-mr-6 {
+  @include -mr-6;
+}
+@mixin -mr-half {
+  margin-right: space(-0.5);
+}
+%-mr-half {
+  @include -mr-half;
+}
+
+@mixin mb-0 {
+  margin-bottom: 0;
+}
+%mb-0 {
+  @include mb-0;
+}
+@mixin mb-1 {
+  margin-bottom: space();
+}
+%mb-1 {
+  @include mb-1;
+}
+@mixin mb-2 {
+  margin-bottom: space(2);
+}
+%mb-2 {
+  @include mb-2;
+}
+@mixin mb-3 {
+  margin-bottom: space(3);
+}
+%mb-3 {
+  @include mb-3;
+}
+@mixin mb-4 {
+  margin-bottom: space(4);
+}
+%mb-4 {
+  @include mb-4;
+}
+@mixin mb-5 {
+  margin-bottom: space(5);
+}
+%mb-5 {
+  @include mb-5;
+}
+@mixin mb-6 {
+  margin-bottom: space(6);
+}
+%mb-6 {
+  @include mb-6;
+}
+@mixin mb-auto {
+  margin-bottom: auto;
+}
+%mb-auto {
+  @include mb-auto;
+}
+@mixin mb-half {
+  margin-bottom: space(0.5);
+}
+%mb-half {
+  margin-bottom: 5px;
+}
+@mixin -mb-1 {
+  margin-bottom: space(-1);
+}
+%-mb-1 {
+  @include -mb-1;
+}
+@mixin -mb-2 {
+  margin-bottom: space(-2);
+}
+%-mb-2 {
+  @include -mb-2;
+}
+@mixin -mb-3 {
+  margin-bottom: space(-3);
+}
+%-mb-3 {
+  @include -mb-3;
+}
+@mixin -mb-4 {
+  margin-bottom: space(-4);
+}
+%-mb-4 {
+  @include -mb-4;
+}
+@mixin -mb-5 {
+  margin-bottom: space(-5);
+}
+%-mb-5 {
+  @include -mb-5;
+}
+@mixin -mb-6 {
+  margin-bottom: space(-6);
+}
+%-mb-6 {
+  @include -mb-6;
+}
+@mixin -mb-half {
+  margin-bottom: space(-0.5);
+}
+%-mb-half {
+  @include -mb-half;
+}
+
+@mixin ml-0 {
+  margin-left: 0;
+}
+%ml-0 {
+  @include ml-0;
+}
+@mixin ml-1 {
+  margin-left: space();
+}
+%ml-1 {
+  @include ml-1;
+}
+@mixin ml-2 {
+  margin-left: space(2);
+}
+%ml-2 {
+  @include ml-2;
+}
+@mixin ml-3 {
+  margin-left: space(3);
+}
+%ml-3 {
+  @include ml-3;
+}
+@mixin ml-4 {
+  margin-left: space(4);
+}
+%ml-4 {
+  @include ml-4;
+}
+@mixin ml-5 {
+  margin-left: space(5);
+}
+%ml-5 {
+  @include ml-5;
+}
+@mixin ml-6 {
+  margin-left: space(6);
+}
+%ml-6 {
+  margin-left: 60px;
+}
+@mixin ml-auto {
+  margin-left: auto;
+}
+%ml-auto {
+  @include ml-auto;
+}
+@mixin ml-half {
+  margin-left: space(0.5);
+}
+%ml-half {
+  @include ml-half;
+}
+@mixin -ml-1 {
+  margin-left: space(-1);
+}
+%-ml-1 {
+  @include -ml-1;
+}
+@mixin -ml-2 {
+  margin-left: space(-2);
+}
+%-ml-2 {
+  @include -ml-2;
+}
+@mixin -ml-3 {
+  margin-left: space(-3);
+}
+%-ml-3 {
+  @include -ml-3;
+}
+@mixin -ml-4 {
+  margin-left: space(-4);
+}
+%-ml-4 {
+  @include -ml-4;
+}
+@mixin -ml-5 {
+  margin-left: space(-5);
+}
+%-ml-5 {
+  @include -ml-5;
+}
+@mixin -ml-6 {
+  margin-left: space(-6);
+}
+%-ml-6 {
+  @include -ml-6;
+}
+@mixin -ml-half {
+  margin-left: space(-0.5);
+}
+%-ml-half {
+  @include -ml-half;
+}

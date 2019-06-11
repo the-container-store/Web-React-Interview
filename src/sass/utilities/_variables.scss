@@ -1,0 +1,55 @@
+$text-base: 16px;
+
+$page-max-width: 1440px;
+
+$space: 10px;
+
+/**
+ * Breakpoints
+ */
+$mobile-sm-max: 500px;
+$mobile-min: 501px;
+$mobile-max: 610px;
+$tablet-min: 611px;
+$tablet-max: 1020px;
+$desktop-min: 1021px;
+$desktop-max: 1400px;
+$desktop-lg-min: 1401px;
+
+/**
+ * Colors
+ */
+
+// Branding
+$tcs-blue: #005dab;
+$tcs-light-blue: #039be5;
+
+// Supporting
+$blue-01: #004278;
+$blue-02: #007bb6;
+$blue-03: #ceeefc;
+$blue-04: #f2f7fb;
+
+$grey-01: #333337;
+$grey-02: #747477;
+$grey-03: #9a9da0;
+$grey-04: #c4c4cc;
+$grey-05: #eaebef;
+$grey-06: #f6f6fa;
+$white: #fff;
+
+$savings-green: #128400;
+
+// Alerts
+$success-green: #8dc63f;
+$error-red: #df232f;
+$error-red-bg: rgba(223, 46, 47, 0.05);
+$alert-yellow: #fcb824;
+$alert-orange: #f7971d;
+$alert-yellow-bg: rgba(252, 184, 36, 0.05);
+
+$border-thin: 1px;
+$border-thick: 3px;
+
+$border-radius: 3px;
+$border-radius-full: 9999px;

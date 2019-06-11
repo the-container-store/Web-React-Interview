@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Banner from "components/Banner";
+import OrderSummary from "components/OrderSummary";
+import CheckoutForm from "components/CheckoutForm";
+
+import "./App.css";
 
 function App() {
+  const initialCart = require("./data/cart.json");
+
+  const [cart, setCart] = useState(initialCart);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Banner>
+        <h1 className="App__heading">Secure Checkout</h1>
+      </Banner>
+      <div className="App__row">
+        <div className="App__left-col">
+          <CheckoutForm cart={cart} setCart={setCart} />
+        </div>
+        <div className="App__right-col">
+          <OrderSummary cart={cart} />
+        </div>
+      </div>
     </div>
   );
 }

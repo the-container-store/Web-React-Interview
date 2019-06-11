@@ -1,0 +1,13 @@
+.LineItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.LineItem__amount {
+  font-weight: 700;
+}
+
+.LineItem--large {
+  font-size: 1.75rem;
+}

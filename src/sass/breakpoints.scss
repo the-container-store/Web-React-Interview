@@ -1,0 +1,12 @@
+@import 'utilities/variables';
+
+:export {
+  mobileSmMax: $mobile-sm-max;
+  mobileMin: $mobile-min;
+  mobileMax: $mobile-max;
+  tabletMin: $tablet-min;
+  tabletMax: $tablet-max;
+  desktopMin: $desktop-min;
+  desktopMax: $desktop-max;
+  desktopLgMin: $desktop-lg-min;
+}

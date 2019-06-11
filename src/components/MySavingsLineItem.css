@@ -1,0 +1,13 @@
+.MySavingsLineItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.MySavingsLineItem__amount {
+  font-weight: 700;
+}
+
+.MySavingsLineItem__pop-logo {
+  margin-right: 10px;
+}

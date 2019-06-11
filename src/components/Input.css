@@ -1,0 +1,25 @@
+.Input__Wrapper {
+  padding: 10px;
+}
+
+.Input__Input {
+  display: block;
+  margin: 0;
+  padding: 10px 1em;
+  border-radius: 3px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #fff;
+  box-sizing: border-box;
+  border: 1px solid #c4c4cc;
+  color: inherit;
+  font-family: inherit;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.Input__Label {
+  font-weight: 600;
+}

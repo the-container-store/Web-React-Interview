@@ -1,0 +1,5 @@
+$duration-normal: 0.2s !default;
+
+@mixin transition-normal($prop: all) {
+  transition: $prop $duration-normal;
+}

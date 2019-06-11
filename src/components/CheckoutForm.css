@@ -1,0 +1,11 @@
+.Checkout__Row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.Checkout__Row > .Input__Wrapper,
+.Checkout__Row > .react-select {
+  flex: 1;
+}

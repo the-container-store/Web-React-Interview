@@ -1,0 +1,250 @@
+/**
+ * Flex Display
+ * declared in _layout.scss
+ * 
+ * @mixin flex {
+ *   display: flex;
+ * }
+ * @mixin inline-flex {
+ *   display: inline-flex;
+ * }
+ *
+ */
+
+/**
+ * Flex Direction
+ */
+@mixin flex-row {
+  flex-direction: row;
+}
+%flex-row {
+  @include flex-row;
+}
+@mixin flex-row-reverse {
+  flex-direction: row-reverse;
+}
+%flex-row-reverse {
+  @include flex-row-reverse;
+}
+@mixin flex-column {
+  flex-direction: column;
+}
+%flex-column {
+  @include flex-column;
+}
+@mixin flex-column-reverse {
+  flex-direction: column-reverse;
+}
+%flex-column-reverse {
+  @include flex-column-reverse;
+}
+
+/**
+ * Flex Wrapping
+ */
+@mixin flex-no-wrap {
+  flex-wrap: nowrap;
+}
+%flex-no-wrap {
+  @include flex-no-wrap;
+}
+@mixin flex-wrap {
+  flex-wrap: wrap;
+}
+%flex-wrap {
+  @include flex-wrap;
+}
+@mixin flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+%flex-wrap-reverse {
+  @include flex-wrap-reverse;
+}
+
+/**
+ * Align Items
+ */
+@mixin items-stretch {
+  align-items: stretch;
+}
+%items-stretch {
+  @include items-stretch;
+}
+@mixin items-start {
+  align-items: flex-start;
+}
+%items-start {
+  @include items-start;
+}
+@mixin items-center {
+  align-items: center;
+}
+%items-center {
+  @include items-center;
+}
+@mixin items-end {
+  align-items: flex-end;
+}
+%items-end {
+  @include items-end;
+}
+@mixin items-baseline {
+  align-items: baseline;
+}
+%items-baseline {
+  @include items-baseline;
+}
+
+/**
+ * Align Content
+ */
+@mixin content-start {
+  align-content: flex-start;
+}
+%content-start {
+  @include content-start;
+}
+@mixin content-center {
+  align-content: center;
+}
+%content-center {
+  @include content-center;
+}
+@mixin content-end {
+  align-content: flex-end;
+}
+%content-end {
+  @include content-end;
+}
+@mixin content-between {
+  align-content: space-between;
+}
+%content-between {
+  @include content-between;
+}
+@mixin content-around {
+  align-content: space-around;
+}
+%content-around {
+  @include content-around;
+}
+
+/**
+ * Align Self
+ */
+@mixin self-auto {
+  align-self: auto;
+}
+%self-auto {
+  @include self-auto;
+}
+@mixin self-start {
+  align-self: flex-start;
+}
+%self-start {
+  @include self-start;
+}
+@mixin self-center {
+  align-self: center;
+}
+%self-center {
+  @include self-center;
+}
+@mixin self-end {
+  align-self: flex-end;
+}
+%self-end {
+  @include self-end;
+}
+@mixin self-stretch {
+  align-self: stretch;
+}
+%self-stretch {
+  @include self-stretch;
+}
+
+/**
+ * Justify Content
+ */
+@mixin justify-start {
+  justify-content: flex-start;
+}
+%justify-start {
+  @include justify-start;
+}
+@mixin justify-center {
+  justify-content: center;
+}
+%justify-center {
+  @include justify-center;
+}
+@mixin justify-end {
+  justify-content: flex-end;
+}
+%justify-end {
+  @include justify-end;
+}
+@mixin justify-between {
+  justify-content: space-between;
+}
+%justify-between {
+  justify-content: space-between;
+}
+@mixin justify-around {
+  justify-content: space-around;
+}
+%justify-around {
+  @include justify-around;
+}
+
+/**
+ * Flex Sizing
+ */
+@mixin flex-initial {
+  flex: initial;
+}
+%flex-initial {
+  @include flex-initial;
+}
+@mixin flex-1 {
+  flex: 1;
+}
+%flex-1 {
+  @include flex-1;
+}
+@mixin flex-auto {
+  flex: auto;
+}
+%flex-auto {
+  @include flex-auto;
+}
+@mixin flex-none {
+  flex: none;
+}
+%flex-none {
+  @include flex-none;
+}
+@mixin flex-grow {
+  flex-grow: 1;
+}
+%flex-grow {
+  flex-grow: 1;
+}
+@mixin flex-shrink {
+  flex-shrink: 1;
+}
+%flex-shrink {
+  @include flex-shrink;
+}
+@mixin flex-no-grow {
+  flex-grow: 0;
+}
+%flex-no-grow {
+  @include flex-no-grow;
+}
+@mixin flex-no-shrink {
+  flex-shrink: 0;
+}
+%flex-no-shrink {
+  @include flex-no-shrink;
+}

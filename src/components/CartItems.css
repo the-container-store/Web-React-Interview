@@ -1,0 +1,10 @@
+.CartItems {
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.CartItems__heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+}

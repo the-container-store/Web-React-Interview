@@ -1,0 +1,6 @@
+.StateSelect {
+  position: relative;
+  background-image: url("data:image/svg+xml,%3Csvg width='20px' height='13px' viewBox='0 0 20 13' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cpolyline id='Path' stroke='%239A9DA0' stroke-width='2' fill-rule='nonzero' transform='translate(10.000000, 5.500000) rotate(180.000000) translate(-10.000000, -5.500000) ' points='1 10 10 1 10 1 19 10'%3E%3C/polyline%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1em bottom 13px;
+}

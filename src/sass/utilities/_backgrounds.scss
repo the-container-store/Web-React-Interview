@@ -1,0 +1,237 @@
+/**
+ * Background Attachment
+ */
+@mixin bg-fixed {
+  background-attachment: fixed;
+}
+%bg-fixed {
+  @include bg-fixed;
+}
+@mixin bg-local {
+  background-attachment: local;
+}
+%bg-local {
+  @include bg-local;
+}
+@mixin bg-scroll {
+  background-attachment: scroll;
+}
+%bg-scroll {
+  @include bg-scroll;
+}
+
+/**
+ * Background Color
+ * bg-{color-variable-name}
+ */
+@mixin bg-transparent {
+  // using the rgba equivalent of transparent because: IE Issues™
+  background-color: rgba(0, 0, 0, 0);
+}
+%bg-transparent {
+  @include bg-transparent;
+}
+@mixin bg-tcs-blue {
+  background-color: $tcs-blue;
+}
+%bg-tcs-blue {
+  @include bg-tcs-blue;
+}
+@mixin bg-tcs-light-blue {
+  background-color: $tcs-light-blue;
+}
+%bg-tcs-light-blue {
+  @include bg-tcs-light-blue;
+}
+@mixin bg-blue-01 {
+  background-color: $blue-01;
+}
+%bg-blue-01 {
+  @include bg-blue-01;
+}
+@mixin bg-blue-02 {
+  background-color: $blue-02;
+}
+%bg-blue-02 {
+  @include bg-blue-02;
+}
+@mixin bg-blue-03 {
+  background-color: $blue-03;
+}
+%bg-blue-03 {
+  @include bg-blue-03;
+}
+@mixin bg-blue-04 {
+  background-color: $blue-04;
+}
+%bg-blue-04 {
+  @include bg-blue-04;
+}
+@mixin bg-grey-01 {
+  background-color: $grey-01;
+}
+%bg-grey-01 {
+  @include bg-grey-01;
+}
+@mixin bg-grey-02 {
+  background-color: $grey-02;
+}
+%bg-grey-02 {
+  @include bg-grey-02;
+}
+@mixin bg-grey-03 {
+  background-color: $grey-03;
+}
+%bg-grey-03 {
+  @include bg-grey-03;
+}
+@mixin bg-grey-04 {
+  background-color: $grey-04;
+}
+%bg-grey-04 {
+  @include bg-grey-04;
+}
+@mixin bg-grey-05 {
+  background-color: $grey-05;
+}
+%bg-grey-05 {
+  @include bg-grey-05;
+}
+@mixin bg-grey-06 {
+  background-color: $grey-06;
+}
+%bg-grey-06 {
+  @include bg-grey-06;
+}
+@mixin bg-white {
+  background-color: $white;
+}
+%bg-white {
+  background-color: white;
+}
+@mixin bg-success-green {
+  background-color: $success-green;
+}
+%bg-success-green {
+  @include bg-success-green;
+}
+@mixin bg-error-red {
+  background-color: $error-red-bg;
+}
+%bg-error-red {
+  @include bg-error-red;
+}
+@mixin bg-alert-yellow {
+  background-color: $alert-yellow-bg;
+}
+%bg-alert-yellow {
+  @include bg-alert-yellow;
+}
+
+/**
+ * Background Attachment
+ */
+@mixin bg-bottom {
+  background-position: bottom;
+}
+%bg-bottom {
+  @include bg-bottom;
+}
+@mixin bg-center {
+  background-position: center;
+}
+%bg-center {
+  @include bg-center;
+}
+@mixin bg-left {
+  background-position: left;
+}
+%bg-left {
+  @include bg-left;
+}
+@mixin bg-left-bottom {
+  background-position: left bottom;
+}
+%bg-left-bottom {
+  @include bg-left-bottom;
+}
+@mixin bg-left-top {
+  background-position: left top;
+}
+%bg-left-top {
+  @include bg-left-top;
+}
+@mixin bg-right {
+  background-position: right;
+}
+%bg-right {
+  @include bg-right;
+}
+@mixin bg-right-bottom {
+  background-position: right bottom;
+}
+%bg-right-bottom {
+  @include bg-right-bottom;
+}
+@mixin bg-right-top {
+  background-position: right top;
+}
+%bg-right-top {
+  @include bg-right-top;
+}
+@mixin bg-top {
+  background-position: top;
+}
+%bg-top {
+  @include bg-top;
+}
+
+/**
+ * Background Repeat
+ */
+@mixin bg-repeat {
+  background-repeat: repeat;
+}
+%bg-repeat {
+  @include bg-repeat;
+}
+@mixin bg-no-repeat {
+  background-repeat: no-repeat;
+}
+%bg-no-repeat {
+  @include bg-no-repeat;
+}
+@mixin bg-repeat-x {
+  background-repeat: repeat-x;
+}
+%bg-repeat-x {
+  @include bg-repeat-x;
+}
+@mixin bg-repeat-y {
+  background-repeat: repeat-y;
+}
+%bg-repeat-y {
+  @include bg-repeat-y;
+}
+
+/**
+ * Background Size
+ */
+@mixin bg-auto {
+  background-size: auto;
+}
+%bg-auto {
+  @include bg-auto;
+}
+@mixin bg-cover {
+  background-size: cover;
+}
+%bg-cover {
+  @include bg-cover;
+}
+@mixin bg-contain {
+  background-size: contain;
+}
+%bg-contain {
+  @include bg-contain;
+}

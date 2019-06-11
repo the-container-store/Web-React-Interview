@@ -58,33 +58,3 @@
       format("svg");
   font-weight: 700;
 }
-
-body {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  color: #333337;
-  font-family: "Proxima N W01", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-    "Helvetica Neue", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: #005dab;
-  transition: all 0.2s;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-p {
-  margin-top: 0.625em;
-  margin-bottom: 1.25em;
-}
-
-:focus {
-  outline: none;
-  box-shadow: 0 0 5px 2px #ceeefc;
-}

@@ -1,0 +1,47 @@
+.CartItem__row {
+  display: flex;
+}
+
+.CartItem__image {
+  height: auto;
+  margin: 10px;
+  width: 40px;
+}
+
+.CartItem__line-item {
+  margin-bottom: 5px;
+}
+
+.CartItem__details {
+  flex-grow: 1;
+}
+
+.CartItem__price {
+  font-weight: 700;
+  text-align: right;
+}
+
+.CartItem__price--sale {
+  color: #df232f;
+}
+
+.CartItem__price--originally {
+  color: #747477;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-left: 5px;
+  text-decoration: line-through;
+}
+
+.CartItem__additional-fee {
+  flex-grow: 1;
+  margin-left: 60px;
+}
+
+.CartItem__warning {
+  font-size: 0.75rem;
+}
+
+.CartItem__warning-title {
+  font-size: 1rem;
+}

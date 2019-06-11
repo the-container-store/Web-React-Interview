@@ -1,0 +1,880 @@
+/**
+ * Border Color
+ * border-{color-variable-name}
+ */
+@mixin border-transparent {
+  border-color: transparent;
+}
+%border-transparent {
+  @include border-transparent;
+}
+@mixin border-t-transparent {
+  border-top-color: transparent;
+}
+%border-t-transparent {
+  @include border-t-transparent;
+}
+@mixin border-r-transparent {
+  border-right-color: transparent;
+}
+%border-r-transparent {
+  @include border-r-transparent;
+}
+@mixin border-b-transparent {
+  border-bottom-color: transparent;
+}
+%border-b-transparent {
+  @include border-b-transparent;
+}
+@mixin border-l-transparent {
+  border-left-color: transparent;
+}
+%border-l-transparent {
+  @include border-l-transparent;
+}
+@mixin border-tcs-blue {
+  border-color: #005dab;
+}
+%border-tcs-blue {
+  @include border-tcs-blue;
+}
+@mixin border-t-tcs-blue {
+  border-top-color: #005dab;
+}
+%border-t-tcs-blue {
+  @include border-t-tcs-blue;
+}
+@mixin border-r-tcs-blue {
+  border-right-color: #005dab;
+}
+%border-r-tcs-blue {
+  @include border-r-tcs-blue;
+}
+@mixin border-b-tcs-blue {
+  border-bottom-color: #005dab;
+}
+%border-b-tcs-blue {
+  @include border-b-tcs-blue;
+}
+@mixin border-l-tcs-blue {
+  border-left-color: #005dab;
+}
+%border-l-tcs-blue {
+  @include border-l-tcs-blue;
+}
+@mixin border-tcs-light-blue {
+  border-color: $tcs-light-blue;
+}
+%border-tcs-light-blue {
+  @include border-tcs-light-blue;
+}
+@mixin border-t-tcs-light-blue {
+  border-top-color: $tcs-light-blue;
+}
+%border-t-tcs-light-blue {
+  @include border-t-tcs-light-blue;
+}
+@mixin border-r-tcs-light-blue {
+  border-right-color: $tcs-light-blue;
+}
+%border-r-tcs-light-blue {
+  @include border-r-tcs-light-blue;
+}
+@mixin border-b-tcs-light-blue {
+  border-bottom-color: $tcs-light-blue;
+}
+%border-b-tcs-light-blue {
+  @include border-b-tcs-light-blue;
+}
+@mixin border-l-tcs-light-blue {
+  border-left-color: $tcs-light-blue;
+}
+%border-l-tcs-light-blue {
+  @include border-l-tcs-light-blue;
+}
+@mixin border-blue-01 {
+  border-color: $blue-01;
+}
+%border-blue-01 {
+  @include border-blue-01;
+}
+@mixin border-t-blue-01 {
+  border-top-color: $blue-01;
+}
+%border-t-blue-01 {
+  @include border-t-blue-01;
+}
+@mixin border-r-blue-01 {
+  border-right-color: $blue-01;
+}
+%border-r-blue-01 {
+  @include border-r-blue-01;
+}
+@mixin border-b-blue-01 {
+  border-bottom-color: $blue-01;
+}
+%border-b-blue-01 {
+  @include border-b-blue-01;
+}
+@mixin border-l-blue-01 {
+  border-left-color: $blue-01;
+}
+%border-l-blue-01 {
+  @include border-l-blue-01;
+}
+@mixin border-blue-02 {
+  border-color: $blue-02;
+}
+%border-blue-02 {
+  @include border-blue-02;
+}
+@mixin border-t-blue-02 {
+  border-top-color: $blue-02;
+}
+%border-t-blue-02 {
+  @include border-t-blue-02;
+}
+@mixin border-r-blue-02 {
+  border-right-color: $blue-02;
+}
+%border-r-blue-02 {
+  @include border-r-blue-02;
+}
+@mixin border-b-blue-02 {
+  border-bottom-color: $blue-02;
+}
+%border-b-blue-02 {
+  @include border-b-blue-02;
+}
+@mixin border-l-blue-02 {
+  border-left-color: $blue-02;
+}
+%border-l-blue-02 {
+  @include border-l-blue-02;
+}
+@mixin border-blue-03 {
+  border-color: $blue-03;
+}
+%border-blue-03 {
+  @include border-blue-03;
+}
+@mixin border-t-blue-03 {
+  border-top-color: $blue-03;
+}
+%border-t-blue-03 {
+  @include border-t-blue-03;
+}
+@mixin border-r-blue-03 {
+  border-right-color: $blue-03;
+}
+%border-r-blue-03 {
+  @include border-r-blue-03;
+}
+@mixin border-b-blue-03 {
+  border-bottom-color: $blue-03;
+}
+%border-b-blue-03 {
+  @include border-b-blue-03;
+}
+@mixin border-l-blue-03 {
+  border-left-color: $blue-03;
+}
+%border-l-blue-03 {
+  @include border-l-blue-03;
+}
+@mixin border-blue-04 {
+  border-color: $blue-04;
+}
+%border-blue-04 {
+  @include border-blue-04;
+}
+@mixin border-t-blue-04 {
+  border-top-color: $blue-04;
+}
+%border-t-blue-04 {
+  @include border-t-blue-04;
+}
+@mixin border-r-blue-04 {
+  border-right-color: $blue-04;
+}
+%border-r-blue-04 {
+  @include border-r-blue-04;
+}
+@mixin border-b-blue-04 {
+  border-bottom-color: $blue-04;
+}
+%border-b-blue-04 {
+  @include border-b-blue-04;
+}
+@mixin border-l-blue-04 {
+  border-left-color: $blue-04;
+}
+%border-l-blue-04 {
+  @include border-l-blue-04;
+}
+@mixin border-grey-01 {
+  border-color: #333337;
+}
+%border-grey-01 {
+  @include border-grey-01;
+}
+@mixin border-t-grey-01 {
+  border-top-color: #333337;
+}
+%border-t-grey-01 {
+  @include border-t-grey-01;
+}
+@mixin border-r-grey-01 {
+  border-right-color: #333337;
+}
+%border-r-grey-01 {
+  @include border-r-grey-01;
+}
+@mixin border-b-grey-01 {
+  border-bottom-color: #333337;
+}
+%border-b-grey-01 {
+  @include border-b-grey-01;
+}
+@mixin border-l-grey-01 {
+  border-left-color: #333337;
+}
+%border-l-grey-01 {
+  @include border-l-grey-01;
+}
+@mixin border-grey-02 {
+  border-color: #747477;
+}
+%border-grey-02 {
+  @include border-grey-02;
+}
+@mixin border-t-grey-02 {
+  border-top-color: #747477;
+}
+%border-t-grey-02 {
+  @include border-t-grey-02;
+}
+@mixin border-r-grey-02 {
+  border-right-color: #747477;
+}
+%border-r-grey-02 {
+  @include border-r-grey-02;
+}
+@mixin border-b-grey-02 {
+  border-bottom-color: #747477;
+}
+%border-b-grey-02 {
+  @include border-b-grey-02;
+}
+@mixin border-l-grey-02 {
+  border-left-color: #747477;
+}
+%border-l-grey-02 {
+  @include border-l-grey-02;
+}
+@mixin border-grey-03 {
+  border-color: $grey-03;
+}
+%border-grey-03 {
+  @include border-grey-03;
+}
+@mixin border-t-grey-03 {
+  border-top-color: $grey-03;
+}
+%border-t-grey-03 {
+  @include border-t-grey-03;
+}
+@mixin border-r-grey-03 {
+  border-right-color: $grey-03;
+}
+%border-r-grey-03 {
+  @include border-r-grey-03;
+}
+@mixin border-b-grey-03 {
+  border-bottom-color: $grey-03;
+}
+%border-b-grey-03 {
+  @include border-b-grey-03;
+}
+@mixin border-l-grey-03 {
+  border-left-color: $grey-03;
+}
+%border-l-grey-03 {
+  @include border-l-grey-03;
+}
+@mixin border-grey-04 {
+  border-color: $grey-04;
+}
+%border-grey-04 {
+  @include border-grey-04;
+}
+@mixin border-t-grey-04 {
+  border-top-color: $grey-04;
+}
+%border-t-grey-04 {
+  @include border-t-grey-04;
+}
+@mixin border-r-grey-04 {
+  border-right-color: $grey-04;
+}
+%border-r-grey-04 {
+  @include border-r-grey-04;
+}
+@mixin border-b-grey-04 {
+  border-bottom-color: $grey-04;
+}
+%border-b-grey-04 {
+  @include border-b-grey-04;
+}
+@mixin border-l-grey-04 {
+  border-left-color: $grey-04;
+}
+%border-l-grey-04 {
+  @include border-l-grey-04;
+}
+@mixin border-grey-05 {
+  border-color: $grey-05;
+}
+%border-grey-05 {
+  @include border-grey-05;
+}
+@mixin border-t-grey-05 {
+  border-top-color: $grey-05;
+}
+%border-t-grey-05 {
+  @include border-t-grey-05;
+}
+@mixin border-r-grey-05 {
+  border-right-color: $grey-05;
+}
+%border-r-grey-05 {
+  @include border-r-grey-05;
+}
+@mixin border-b-grey-05 {
+  border-bottom-color: $grey-05;
+}
+%border-b-grey-05 {
+  @include border-b-grey-05;
+}
+@mixin border-l-grey-05 {
+  border-left-color: $grey-05;
+}
+%border-l-grey-05 {
+  @include border-l-grey-05;
+}
+@mixin border-grey-06 {
+  border-color: $grey-06;
+}
+%border-grey-06 {
+  @include border-grey-06;
+}
+@mixin border-t-grey-06 {
+  border-top-color: $grey-06;
+}
+%border-t-grey-06 {
+  @include border-t-grey-06;
+}
+@mixin border-r-grey-06 {
+  border-right-color: $grey-06;
+}
+%border-r-grey-06 {
+  @include border-r-grey-06;
+}
+@mixin border-b-grey-06 {
+  border-bottom-color: $grey-06;
+}
+%border-b-grey-06 {
+  @include border-b-grey-06;
+}
+@mixin border-l-grey-06 {
+  border-left-color: $grey-06;
+}
+%border-l-grey-06 {
+  @include border-l-grey-06;
+}
+@mixin border-white {
+  border-color: $white;
+}
+%border-white {
+  @include border-white;
+}
+@mixin border-t-white {
+  border-top-color: $white;
+}
+%border-t-white {
+  @include border-t-white;
+}
+@mixin border-r-white {
+  border-right-color: $white;
+}
+%border-r-white {
+  @include border-r-white;
+}
+@mixin border-b-white {
+  border-bottom-color: $white;
+}
+%border-b-white {
+  @include border-b-white;
+}
+@mixin border-l-white {
+  border-left-color: $white;
+}
+%border-l-white {
+  @include border-l-white;
+}
+@mixin border-success-green {
+  border-color: $success-green;
+}
+%border-success-green {
+  @include border-success-green;
+}
+@mixin border-t-success-green {
+  border-top-color: $success-green;
+}
+%border-t-success-green {
+  @include border-t-success-green;
+}
+@mixin border-r-success-green {
+  border-right-color: $success-green;
+}
+%border-r-success-green {
+  @include border-r-success-green;
+}
+@mixin border-b-success-green {
+  border-bottom-color: $success-green;
+}
+%border-b-success-green {
+  @include border-b-success-green;
+}
+@mixin border-l-success-green {
+  border-left-color: $success-green;
+}
+%border-l-success-green {
+  @include border-l-success-green;
+}
+@mixin border-error-red {
+  border-color: $error-red;
+}
+%border-error-red {
+  @include border-error-red;
+}
+@mixin border-t-error-red {
+  border-top-color: $error-red;
+}
+%border-t-error-red {
+  @include border-t-error-red;
+}
+@mixin border-r-error-red {
+  border-right-color: $error-red;
+}
+%border-r-error-red {
+  @include border-r-error-red;
+}
+@mixin border-b-error-red {
+  border-bottom-color: $error-red;
+}
+%border-b-error-red {
+  @include border-b-error-red;
+}
+@mixin border-l-error-red {
+  border-left-color: $error-red;
+}
+%border-l-error-red {
+  @include border-l-error-red;
+}
+@mixin border-alert-yellow {
+  border-color: $alert-yellow;
+}
+%border-alert-yellow {
+  @include border-alert-yellow;
+}
+@mixin border-t-alert-yellow {
+  border-top-color: $alert-yellow;
+}
+%border-t-alert-yellow {
+  @include border-t-alert-yellow;
+}
+@mixin border-r-alert-yellow {
+  border-right-color: $alert-yellow;
+}
+%border-r-alert-yellow {
+  @include border-r-alert-yellow;
+}
+@mixin border-b-alert-yellow {
+  border-bottom-color: $alert-yellow;
+}
+%border-b-alert-yellow {
+  @include border-b-alert-yellow;
+}
+@mixin border-l-alert-yellow {
+  border-left-color: $alert-yellow;
+}
+%border-l-alert-yellow {
+  @include border-l-alert-yellow;
+}
+
+/**
+ * Border Style
+ */
+@mixin border-solid {
+  border-style: solid;
+}
+%border-solid {
+  @include border-solid;
+}
+@mixin border-t-solid {
+  border-top-style: solid;
+}
+%border-t-solid {
+  @include border-t-solid;
+}
+@mixin border-r-solid {
+  border-right-style: solid;
+}
+%border-r-solid {
+  @include border-r-solid;
+}
+@mixin border-b-solid {
+  border-bottom-style: solid;
+}
+%border-b-solid {
+  @include border-b-solid;
+}
+@mixin border-l-solid {
+  border-left-style: solid;
+}
+%border-l-solid {
+  @include border-l-solid;
+}
+@mixin border-dashed {
+  border-style: dashed;
+}
+%border-dashed {
+  @include border-dashed;
+}
+@mixin border-t-dashed {
+  border-top-style: dashed;
+}
+%border-t-dashed {
+  @include border-t-dashed;
+}
+@mixin border-r-dashed {
+  border-right-style: dashed;
+}
+%border-r-dashed {
+  @include border-r-dashed;
+}
+@mixin border-b-dashed {
+  border-bottom-style: dashed;
+}
+%border-b-dashed {
+  @include border-b-dashed;
+}
+@mixin border-l-dashed {
+  border-left-style: dashed;
+}
+%border-l-dashed {
+  @include border-l-dashed;
+}
+@mixin border-dotted {
+  border-style: dotted;
+}
+%border-dotted {
+  @include border-dotted;
+}
+@mixin border-t-dotted {
+  border-top-style: dotted;
+}
+%border-t-dotted {
+  @include border-t-dotted;
+}
+@mixin border-r-dotted {
+  border-right-style: dotted;
+}
+%border-r-dotted {
+  @include border-r-dotted;
+}
+@mixin border-b-dotted {
+  border-bottom-style: dotted;
+}
+%border-b-dotted {
+  @include border-b-dotted;
+}
+@mixin border-l-dotted {
+  border-left-style: dotted;
+}
+%border-l-dotted {
+  @include border-l-dotted;
+}
+@mixin border-none {
+  border-style: none;
+}
+%border-none {
+  @include border-none;
+}
+@mixin border-t-none {
+  border-top-style: none;
+}
+%border-t-none {
+  @include border-t-none;
+}
+@mixin border-r-none {
+  border-right-style: none;
+}
+%border-r-none {
+  @include border-r-none;
+}
+@mixin border-b-none {
+  border-bottom-style: none;
+}
+%border-b-none {
+  @include border-b-none;
+}
+@mixin border-l-none {
+  border-left-style: none;
+}
+%border-l-none {
+  @include border-l-none;
+}
+
+/**
+ * Border Width
+ */
+@mixin border-thin {
+  border-width: $border-thin;
+}
+%border-thin {
+  @include border-thin;
+}
+@mixin border-t-thin {
+  border-top-width: $border-thin;
+}
+%border-t-thin {
+  @include border-t-thin;
+}
+@mixin border-r-thin {
+  border-right-width: $border-thin;
+}
+%border-r-thin {
+  @include border-r-thin;
+}
+@mixin border-b-thin {
+  border-bottom-width: $border-thin;
+}
+%border-b-thin {
+  @include border-b-thin;
+}
+@mixin border-l-thin {
+  border-left-width: $border-thin;
+}
+%border-l-thin {
+  @include border-l-thin;
+}
+@mixin border-thick {
+  border-width: $border-thick;
+}
+%border-thick {
+  @include border-thick;
+}
+@mixin border-t-thick {
+  border-top-width: $border-thick;
+}
+%border-t-thick {
+  @include border-t-thick;
+}
+@mixin border-r-thick {
+  border-right-width: $border-thick;
+}
+%border-r-thick {
+  @include border-r-thick;
+}
+@mixin border-b-thick {
+  border-bottom-width: $border-thick;
+}
+%border-b-thick {
+  @include border-b-thick;
+}
+@mixin border-l-thick {
+  border-left-width: $border-thick;
+}
+%border-l-thick {
+  @include border-l-thick;
+}
+
+/**
+ * Border Radius
+ */
+@mixin rounded-none {
+  border-radius: 0;
+}
+%radius-none {
+  @include rounded-none;
+}
+@mixin rounded {
+  border-radius: $border-radius;
+}
+%radius-rounded {
+  @include rounded;
+}
+@mixin rounded-full {
+  border-radius: $border-radius-full;
+}
+%radius-full {
+  @include rounded-full;
+}
+@mixin rounded-t-none {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+%radius-t-none {
+  @include rounded-t-none;
+}
+@mixin rounded-r-none {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+%radius-r-none {
+  @include rounded-r-none;
+}
+@mixin rounded-b-none {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+%radius-b-none {
+  @include rounded-b-none;
+}
+@mixin rounded-l-none {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+%radius-l-none {
+  @include rounded-l-none;
+}
+@mixin rounded-t {
+  border-top-left-radius: $border-radius;
+  border-top-right-radius: $border-radius;
+}
+%radius-t-rounded {
+  @include rounded-t;
+}
+@mixin rounded-r {
+  border-top-right-radius: $border-radius;
+  border-bottom-right-radius: $border-radius;
+}
+%radius-r-rounded {
+  @include rounded-r;
+}
+@mixin rounded-b {
+  border-bottom-right-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+}
+%radius-b-rounded {
+  @include rounded-b;
+}
+@mixin rounded-l {
+  border-top-left-radius: $border-radius;
+  border-bottom-left-radius: $border-radius;
+}
+%radius-l-rounded {
+  @include rounded-l;
+}
+@mixin rounded-t-full {
+  border-top-left-radius: $border-radius-full;
+  border-top-right-radius: $border-radius-full;
+}
+%radius-t-full {
+  @include rounded-t-full;
+}
+@mixin rounded-r-full {
+  border-top-right-radius: $border-radius-full;
+  border-bottom-right-radius: $border-radius-full;
+}
+%radius-r-full {
+  @include rounded-r-full;
+}
+@mixin rounded-b-full {
+  border-bottom-right-radius: $border-radius-full;
+  border-bottom-left-radius: $border-radius-full;
+}
+%radius-b-full {
+  @include rounded-b-full;
+}
+@mixin rounded-l-full {
+  border-top-left-radius: $border-radius-full;
+  border-bottom-left-radius: $border-radius-full;
+}
+%radius-l-full {
+  @include rounded-l-full;
+}
+@mixin rounded-tl-none {
+  border-top-left-radius: 0;
+}
+%radius-tl-none {
+  @include rounded-tl-none;
+}
+@mixin rounded-tr-none {
+  border-top-right-radius: 0;
+}
+%radius-tr-none {
+  @include rounded-tr-none;
+}
+@mixin rounded-br-none {
+  border-bottom-right-radius: 0;
+}
+%radius-br-none {
+  @include rounded-br-none;
+}
+@mixin rounded-bl-none {
+  border-bottom-left-radius: 0;
+}
+%radius-bl-none {
+  @include rounded-bl-none;
+}
+@mixin rounded-tl {
+  border-top-left-radius: $border-radius;
+}
+%radius-tl-rounded {
+  @include rounded-tl;
+}
+@mixin rounded-tr {
+  border-top-right-radius: $border-radius;
+}
+%radius-tr-rounded {
+  @include rounded-tr;
+}
+@mixin rounded-br {
+  border-bottom-right-radius: $border-radius;
+}
+%radius-br-rounded {
+  @include rounded-br;
+}
+@mixin rounded-bl {
+  border-bottom-left-radius: $border-radius;
+}
+%radius-bl-rounded {
+  @include rounded-bl;
+}
+@mixin rounded-tl-full {
+  border-top-left-radius: $border-radius-full;
+}
+%radius-tl-full {
+  @include rounded-tl-full;
+}
+@mixin rounded-tr-full {
+  border-top-right-radius: $border-radius-full;
+}
+%radius-tr-full {
+  @include rounded-tr-full;
+}
+@mixin rounded-br-full {
+  border-bottom-right-radius: $border-radius-full;
+}
+%radius-br-full {
+  @include rounded-br-full;
+}
+@mixin rounded-bl-full {
+  border-bottom-left-radius: $border-radius-full;
+}
+%radius-bl-full {
+  @include rounded-bl-full;
+}

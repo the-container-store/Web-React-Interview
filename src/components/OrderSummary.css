@@ -1,0 +1,25 @@
+.OrderSummary {
+  background-color: #f6f6fa;
+  border: solid 3px #f6f6fa;
+}
+
+.OrderSummary__pricing {
+  margin: 0;
+  padding: 20px;
+  position: relative;
+}
+
+.OrderSummary__heading {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.OrderSummary__savings {
+  color: #747477;
+  text-align: right;
+}
+
+.OrderSummary__savings-amount {
+  color: #128400;
+  font-weight: 700;
+}

@@ -1,0 +1,78 @@
+.ToolTip__wrapper {
+  position: relative;
+}
+
+.ToolTip {
+  max-width: 210px;
+  min-width: 200px;
+  padding-right: 9px;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.ToolTip::after,
+.ToolTip::before {
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid white;
+  border-top: 9px solid transparent;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ToolTip::after {
+  border-color: transparent transparent transparent white;
+  border-width: 11px;
+}
+.ToolTip::before {
+  border-color: transparent transparent transparent black;
+  border-width: 10px;
+}
+
+.ToolTip__message {
+  align-items: flex-start;
+  background: white;
+  background-color: white;
+  border: solid 1px #c4c4cc;
+  border-radius: 3px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.4);
+  color: #333337;
+  display: flex;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.ToolTip__trigger {
+  -webkit-appearance: none;
+  line-height: 1.25;
+  overflow: visible;
+  font-size: inherit;
+  border: none;
+  background-color: transparent;
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  color: #005dab;
+}
+.ToolTip__trigger:hover {
+  text-decoration: underline;
+}
+
+.ToolTip__trigger--close {
+  fill: #747477;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.ToolTip__icon,
+.ToolTip__icon--active {
+  vertical-align: middle;
+}
+
+.ToolTip__icon--active circle {
+  fill: #005dab;
+}

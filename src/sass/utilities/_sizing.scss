@@ -1,0 +1,153 @@
+/**
+ * Box Sizing
+ */
+@mixin border-box {
+  box-sizing: border-box;
+}
+%border-box {
+  @include border-box;
+}
+@mixin content-box {
+  box-sizing: content-box;
+}
+%content-box {
+  @include content-box;
+}
+
+/**
+ * Width
+ */
+@mixin w-space($i: 1) {
+  width: space($i);
+}
+@mixin w-full {
+  width: 100%;
+}
+%w-full {
+  @include w-full;
+}
+@mixin w-half {
+  width: 50%;
+}
+%w-half {
+  @include w-half;
+}
+@mixin w-screen {
+  width: 100vw;
+}
+%w-screen {
+  @include w-screen;
+}
+@mixin w-auto {
+  width: auto;
+}
+%w-auto {
+  @include w-auto;
+}
+@mixin w-px {
+  width: 1px;
+}
+%w-px {
+  @include w-px;
+}
+
+/**
+ * Min-Width
+ */
+@mixin min-w-space($i: 1) {
+  min-width: space($i);
+}
+@mixin min-w-0 {
+  min-width: 0;
+}
+%min-w-0 {
+  @include min-w-0;
+}
+@mixin min-w-full {
+  min-width: 100%;
+}
+%min-w-full {
+  @include min-w-full;
+}
+
+/**
+ * Max-Width
+ */
+@mixin max-w-space($i: 1) {
+  max-width: space($i);
+}
+@mixin max-w-full {
+  max-width: 100%;
+}
+%max-w-full {
+  @include max-w-full;
+}
+
+/**
+ * Height
+ */
+@mixin h-space($i: 1) {
+  height: space($i);
+}
+@mixin h-full {
+  height: 100%;
+}
+%h-full {
+  @include h-full;
+}
+@mixin h-screen {
+  height: 100vh;
+}
+%h-screen {
+  @include h-screen;
+}
+@mixin h-auto {
+  height: auto;
+}
+%h-auto {
+  @include h-auto;
+}
+@mixin h-px {
+  height: 1px;
+}
+%h-px {
+  @include h-px;
+}
+
+/**
+ * Min-Height
+ */
+@mixin min-h-0 {
+  min-height: 0;
+}
+%min-h-0 {
+  @include min-h-0;
+}
+@mixin min-h-full {
+  min-height: 100%;
+}
+%min-h-full {
+  @include min-h-full;
+}
+@mixin min-h-screen {
+  min-height: 100vh;
+}
+%min-h-screen {
+  @include min-h-screen;
+}
+
+/**
+ * Max-Height
+ */
+@mixin max-h-full {
+  max-height: 100%;
+}
+%max-h-full {
+  @include max-h-full;
+}
+@mixin max-h-screen {
+  max-height: 100vh;
+}
+%max-h-screen {
+  @include max-h-screen;
+}

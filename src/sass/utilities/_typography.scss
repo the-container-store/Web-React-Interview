@@ -1,0 +1,466 @@
+/**
+ * Color
+ * Based on style guide color swatches: https://thecontainerstore.invisionapp.com/share/J8DQDV2CV#/screens/255341025
+ */
+@mixin text-tcs-blue {
+  color: #005dab;
+}
+%text-tcs-blue {
+  color: #005dab;
+}
+@mixin text-tcs-light-blue {
+  color: $tcs-light-blue;
+}
+%text-tcs-light-blue {
+  @include text-tcs-light-blue;
+}
+@mixin text-blue-01 {
+  color: $blue-01;
+}
+%text-blue-01 {
+  @include text-blue-01;
+}
+@mixin text-blue-02 {
+  color: $blue-02;
+}
+%text-blue-02 {
+  @include text-blue-02;
+}
+@mixin text-blue-03 {
+  color: $blue-03;
+}
+%text-blue-03 {
+  @include text-blue-03;
+}
+@mixin text-blue-04 {
+  color: $blue-04;
+}
+%text-blue-04 {
+  @include text-blue-04;
+}
+@mixin text-grey-01 {
+  color: #333337;
+}
+%text-grey-01 {
+  color: #333337;
+}
+@mixin text-grey-02 {
+  color: #747477;
+}
+%text-grey-02 {
+  color: #747477;
+}
+@mixin text-grey-03 {
+  color: $grey-03;
+}
+%text-grey-03 {
+  @include text-grey-03;
+}
+@mixin text-grey-04 {
+  color: $grey-04;
+}
+%text-grey-04 {
+  @include text-grey-04;
+}
+@mixin text-grey-05 {
+  color: $grey-05;
+}
+%text-grey-05 {
+  @include text-grey-05;
+}
+@mixin text-grey-06 {
+  color: $grey-06;
+}
+%text-grey-06 {
+  @include text-grey-06;
+}
+@mixin text-white {
+  color: $white;
+}
+%text-white {
+  color: white;
+}
+@mixin text-success-green {
+  color: $success-green;
+}
+%text-success-green {
+  @include text-success-green;
+}
+@mixin text-error-red {
+  color: $error-red;
+}
+%text-error-red {
+  @include text-error-red;
+}
+@mixin text-alert-yellow {
+  color: $alert-yellow;
+}
+%text-alert-yellow {
+  @include text-alert-yellow;
+}
+@mixin text-savings-green {
+  color: $savings-green;
+}
+%text-savings-green {
+  @include text-savings-green;
+}
+@mixin color-inherit {
+  color: inherit;
+}
+%color-inherit {
+  @include color-inherit;
+}
+
+@mixin font-sans {
+  font-family: "Proxima N W01", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+%font-sans {
+  font-family: "Proxima N W01", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+@mixin font-inherit {
+  font-family: inherit;
+}
+%font-inherit {
+  @include font-inherit;
+}
+
+/**
+ * Font Size
+ */
+@mixin text-4xl {
+  font-size: $text-base * 2.25; // 36px with 16px base
+}
+%text-4xl {
+  @include text-4xl;
+}
+@mixin text-3xl {
+  font-size: $text-base * 2; // 32px with 16px base
+}
+%text-3xl {
+  @include text-3xl;
+}
+@mixin text-2xl {
+  font-size: $text-base * 1.75; // 28px with 16px base
+}
+%text-2xl {
+  @include text-2xl;
+}
+@mixin text-xl {
+  font-size: $text-base * 1.5; // 24px with 16px base
+}
+%text-xl {
+  @include text-xl;
+}
+@mixin text-lg {
+  font-size: $text-base * 1.25; // 20px with 16px base
+}
+%text-lg {
+  font-size: 1.25rem;
+}
+@mixin text-base {
+  font-size: $text-base; // 16px with 16px base
+}
+%text-base {
+  font-size: 1rem;
+}
+@mixin text-sm {
+  font-size: $text-base * 0.75; // 12px with 16px base
+}
+%text-sm {
+  font-size: 0.75rem;
+}
+
+/**
+ * Font Weight
+ * The font weight determines the font, per @font-face rules in fonts.css
+ */
+@mixin font-thin {
+  font-weight: 100;
+}
+%font-thin {
+  @include font-thin;
+}
+@mixin font-light {
+  font-weight: 300;
+}
+%font-light {
+  @include font-light;
+}
+@mixin font-regular {
+  font-weight: 400;
+}
+%font-regular {
+  @include font-regular;
+}
+@mixin font-semi-bold {
+  font-weight: 600;
+}
+%font-semi-bold {
+  @include font-semi-bold;
+}
+@mixin font-bold {
+  font-weight: 700;
+}
+%font-bold {
+  @include font-bold;
+}
+
+/**
+ * Letter Spacing
+ */
+@mixin tracking-tight {
+  letter-spacing: -0.05em;
+}
+%tracking-tight {
+  @include tracking-tight;
+}
+@mixin tracking-normal {
+  letter-spacing: 0;
+}
+%tracking-normal {
+  @include tracking-normal;
+}
+@mixin tracking-wide {
+  letter-spacing: 0.05em;
+}
+%tracking-wide {
+  @include tracking-wide;
+}
+
+/**
+ * Line Height
+ */
+@mixin leading-none {
+  line-height: 0;
+}
+%leading-none {
+  @include leading-none;
+}
+@mixin leading-tight {
+  line-height: 1.25;
+}
+%leading-tight {
+  @include leading-tight;
+}
+@mixin leading-normal {
+  line-height: 1.5;
+}
+%leading-normal {
+  @include leading-normal;
+}
+@mixin leading-loose {
+  line-height: 2;
+}
+%leading-loose {
+  @include leading-loose;
+}
+
+/**
+ * Lists
+ */
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+}
+%list-reset {
+  @include list-reset;
+}
+
+/**
+ * Style & Decoration
+ */
+@mixin italic {
+  font-style: italic;
+}
+%italic {
+  @include italic;
+}
+@mixin roman {
+  font-style: normal;
+}
+%roman {
+  @include roman;
+}
+@mixin uppercase {
+  text-transform: uppercase;
+}
+%uppercase {
+  @include uppercase;
+}
+@mixin lowercase {
+  text-transform: lowercase;
+}
+%lowercase {
+  @include lowercase;
+}
+@mixin capitalize {
+  text-transform: capitalize;
+}
+%capitalize {
+  @include capitalize;
+}
+@mixin normal-case {
+  text-transform: none;
+}
+%normal-case {
+  @include normal-case;
+}
+@mixin underline {
+  text-decoration: underline;
+}
+%underline {
+  text-decoration: underline;
+}
+@mixin line-through {
+  text-decoration: line-through;
+}
+%line-through {
+  @include line-through;
+}
+@mixin no-underline {
+  text-decoration: none;
+}
+%no-underline {
+  text-decoration: none;
+}
+@mixin antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+%antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@mixin subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+%subpixel-antialiased {
+  @include subpixel-antialiased;
+}
+
+/**
+ * Horizontal Alignment
+ */
+@mixin text-left {
+  text-align: left;
+}
+%text-left {
+  @include text-left;
+}
+@mixin text-center {
+  text-align: center;
+}
+%text-center {
+  text-align: center;
+}
+@mixin text-right {
+  text-align: right;
+}
+%text-right {
+  @include text-right;
+}
+@mixin text-justify {
+  text-align: justify;
+}
+%text-justify {
+  @include text-justify;
+}
+
+/**
+ * Vertical Alignment
+ */
+@mixin align-baseline {
+  vertical-align: baseline;
+}
+%align-baseline {
+  @include align-baseline;
+}
+@mixin align-top {
+  vertical-align: top;
+}
+%align-top {
+  @include align-top;
+}
+@mixin align-middle {
+  vertical-align: middle;
+}
+%align-middle {
+  @include align-middle;
+}
+@mixin align-bottom {
+  vertical-align: bottom;
+}
+%align-bottom {
+  @include align-bottom;
+}
+@mixin align-text-top {
+  vertical-align: text-top;
+}
+%align-text-top {
+  @include align-text-top;
+}
+@mixin align-text-bottom {
+  vertical-align: text-bottom;
+}
+%align-text-bottom {
+  @include align-text-bottom;
+}
+
+/**
+ * White Space
+ */
+@mixin whitespace-normal {
+  white-space: normal;
+}
+%whitespace-normal {
+  @include whitespace-normal;
+}
+@mixin whitespace-no-wrap {
+  white-space: nowrap;
+}
+%whitespace-no-wrap {
+  @include whitespace-no-wrap;
+}
+@mixin whitespace-pre {
+  white-space: pre;
+}
+%whitespace-pre {
+  @include whitespace-pre;
+}
+@mixin whitespace-pre-line {
+  white-space: pre-line;
+}
+%whitespace-pre-line {
+  @include whitespace-pre-line;
+}
+@mixin whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+%whitespace-pre-wrap {
+  @include whitespace-pre-wrap;
+}
+@mixin break-words {
+  word-wrap: break-word;
+}
+%break-words {
+  @include break-words;
+}
+@mixin break-normal {
+  word-wrap: normal;
+}
+%break-normal {
+  @include break-normal;
+}
+@mixin truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+%truncate {
+  @include truncate;
+}

@@ -1,0 +1,99 @@
+/**
+ * Cursor
+ */
+@mixin cursor-auto {
+  cursor: auto;
+}
+%cursor-auto {
+  @include cursor-auto;
+}
+@mixin cursor-default {
+  cursor: default;
+}
+%cursor-default {
+  @include cursor-default;
+}
+@mixin cursor-pointer {
+  cursor: pointer;
+}
+%cursor-pointer {
+  @include cursor-pointer;
+}
+@mixin cursor-wait {
+  cursor: wait;
+}
+%cursor-wait {
+  @include cursor-wait;
+}
+@mixin cursor-move {
+  cursor: move;
+}
+%cursor-move {
+  @include cursor-move;
+}
+@mixin cursor-not-allowed {
+  cursor: not-allowed;
+}
+%cursor-not-allowed {
+  @include cursor-not-allowed;
+}
+
+/**
+ * Pointer Events
+ */
+@mixin pointer-events-none {
+  pointer-events: none;
+}
+%pointer-events-none {
+  @include pointer-events-none;
+}
+@mixin pointer-events-auto {
+  pointer-events: auto;
+}
+%pointer-events-auto {
+  @include pointer-events-auto;
+}
+
+/**
+ * Resize
+ */
+@mixin resize-none {
+  resize: none;
+}
+%resize-none {
+  @include resize-none;
+}
+@mixin resize {
+  resize: both;
+}
+%resize {
+  @include resize;
+}
+@mixin resize-y {
+  resize: vertical;
+}
+%resize-y {
+  @include resize-y;
+}
+@mixin resize-x {
+  resize: horizontal;
+}
+%resize-x {
+  @include resize-x;
+}
+
+/**
+ * User Select
+ */
+@mixin select-none {
+  user-select: none;
+}
+%select-none {
+  @include select-none;
+}
+@mixin select-text {
+  user-select: text;
+}
+%select-text {
+  @include select-text;
+}
