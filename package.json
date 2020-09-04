@@ -8,7 +8,7 @@
     "react-scripts": "3.0.1",
     "react-select": "^3.0.4",
     "@types/node-sass": "^4.11.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "classnames": "^2.2.6"
   },
   "scripts": {
